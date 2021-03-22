@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <div>
+            Name:<input type="text" id="fname" name="firstname" onkeydown="myfun() ">
+            <script>
+                function myfun(){
+                 var x = document.getElementById("fname").value;
+                 x.value = x.value.toUpperCase();      
+                }
+            </script>
+        </div>
+    </body>
+</html>
